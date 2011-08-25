@@ -19,9 +19,9 @@ server.get("/recommend", function(request, response, match) {
     '-pointsize', '64',
     '-gravity', 'center',
     '-resize', '475x',
-    '-draw', 'rotate -7 text 3,104 ' + unescape(msg),
+    '-draw', 'rotate -7 text 3,84 ' + unescape(msg),
     '-fill', 'white',
-    '-draw', 'rotate -7 text 0,100 ' + unescape(msg),
+    '-draw', 'rotate -7 text 0,80 ' + unescape(msg),
     '-fill', 'black',
     output
   ]
