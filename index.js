@@ -9,7 +9,7 @@ server.get("/favicon.ico", function(request, response){
 
 server.get("/recommend", function(request, response, match) {
   var urlObj = url.parse(request.url, true);
-  var msg = '"' + urlObj.query.body + '"'
+  var msg = '"Snoop recommends\n' + urlObj.query.body + '"'
 
   var output = "/tmp/fuck-" + Math.floor(Math.random(10000000)*10000000) + '.jpg'
   
