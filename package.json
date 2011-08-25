@@ -1,0 +1,8 @@
+{
+  "name": "snoop-recommends",
+  "version": "0.0.1",
+  "dependencies": {
+    "imagemagick": "0.1.2",
+    "node-router": "https://github.com/creationix/node-router/tarball/master"
+  }
+}
